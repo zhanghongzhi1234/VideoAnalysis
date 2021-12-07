@@ -1,0 +1,12 @@
+﻿<Window x:Class="ObjectDetect.FilterWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ObjectDetect"
+        mc:Ignorable="d"
+        Title="Alarm Filter" Height="600" Width="800" Background="Black" Closing="Window_Closing_1">
+    <Grid Name="grid1">
+        <DatePicker HorizontalAlignment="Left" Height="26" Margin="80,70,0,0" VerticalAlignment="Top" Width="192" Foreground="#FF040000"/>
+    </Grid>
+</Window>
